@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Client">
+      <UniqueIdentifier>{49acbf9a-26e6-4ec0-9013-5f45a569e83c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Commande">
+      <UniqueIdentifier>{dbf83832-8dba-434f-b296-33a076b50563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Personnel">
+      <UniqueIdentifier>{8372de2a-36be-4df2-856b-e3887631391b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Statistique">
+      <UniqueIdentifier>{6f2e191e-d679-4373-9ae1-20ad4ace3765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Stock">
+      <UniqueIdentifier>{f6980b38-5e6e-45eb-907b-b3b6507b9f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Client">
+      <UniqueIdentifier>{a8a28c84-826e-431f-aa5f-3bddcb656535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Commande">
+      <UniqueIdentifier>{6783b349-22b0-4c33-8cb5-e40cad6b29e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Personnel">
+      <UniqueIdentifier>{2ccabe39-8111-4134-9407-228d1d24920a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Statistique">
+      <UniqueIdentifier>{cff263c5-a235-408c-8a3f-5637240018c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Stock">
+      <UniqueIdentifier>{9a978b6a-2b7b-48b0-9289-17a572284f03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Client_CLmapTB.h">
+      <Filter>Fichiers d%27en-tête\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client_CLservice.h">
+      <Filter>Fichiers d%27en-tête\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Commande_CLmapTB.h">
+      <Filter>Fichiers d%27en-tête\Commande</Filter>
+    </ClInclude>
+    <ClInclude Include="Commande_CLservice.h">
+      <Filter>Fichiers d%27en-tête\Commande</Filter>
+    </ClInclude>
+    <ClInclude Include="Stock_CLmapTB.h">
+      <Filter>Fichiers d%27en-tête\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="Personnel_CLmapTB.h">
+      <Filter>Fichiers d%27en-tête\Personnel</Filter>
+    </ClInclude>
+    <ClInclude Include="Personnel_CLservice.h">
+      <Filter>Fichiers d%27en-tête\Personnel</Filter>
+    </ClInclude>
+    <ClInclude Include="CAD.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Stock_CLservice.h">
+      <Filter>Fichiers d%27en-tête\Stock</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Client_CLmap.cpp">
+      <Filter>Fichiers sources\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client_CLservice.cpp">
+      <Filter>Fichiers sources\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Commande_CLmap.cpp">
+      <Filter>Fichiers sources\Commande</Filter>
+    </ClCompile>
+    <ClCompile Include="Commande_CLservice.cpp">
+      <Filter>Fichiers sources\Commande</Filter>
+    </ClCompile>
+    <ClCompile Include="Stock_CLservice.cpp">
+      <Filter>Fichiers sources\Stock</Filter>
+    </ClCompile>
+    <ClCompile Include="Personnel_CLmap.cpp">
+      <Filter>Fichiers sources\Personnel</Filter>
+    </ClCompile>
+    <ClCompile Include="Personnel_CLservice.cpp">
+      <Filter>Fichiers sources\Personnel</Filter>
+    </ClCompile>
+    <ClCompile Include="CAD.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Stock_CLmap.cpp">
+      <Filter>Fichiers sources\Stock</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
